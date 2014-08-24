@@ -1,2 +1,0 @@
-/system/app/Rdio.apk
-/system/app/YaxiMainActivity.apk

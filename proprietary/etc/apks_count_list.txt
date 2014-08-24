@@ -1,12 +1,12 @@
 /system/app/SecSettings.apk
 /system/app/InteractiveTutorial.apk
-/system/app/Samsungservice.apk
 /system/app/SecGallery2013.apk
 /system/app/GroupPlay_21.apk
 /system/app/AllSharePlay15.apk
 /system/app/PhotoRetouching_wvga_J.apk
 /system/app/PlusOne.apk
 /system/app/S-Voice_Android_phone_J.apk
+/system/app/Samsungservice.apk
 /system/app/SecContacts.apk
 /system/app/SecEmail_J.apk
 /system/app/SecPhoneMultiSIM.apk
@@ -17,7 +17,6 @@
 /system/app/ChatON_MARKET.apk
 /system/app/ChromeWithBrowser.apk
 /system/app/Hangouts.apk
-/system/app/SamsungHub_phone_WVGA.apk
 /system/app/GmsCore.apk
 /system/app/GoogleDrive.apk
 /system/app/SamsungCamera2.apk
@@ -28,6 +27,7 @@
 /system/app/SecBrowserTry.apk
 /system/app/YouTube.apk
 /system/app/SamsungIME.apk
+/system/app/Music2.apk
 /system/app/Newsstand.apk
 /system/app/FactoryKeystring_FB.apk
 /system/app/GMS_Maps.apk
@@ -35,13 +35,12 @@
 /system/app/Phonesky.apk
 /system/app/AccuweatherPhone2013.apk
 /system/app/SecBrowser.apk
-/system/app/Books.apk
 /system/app/SamsungTTS.apk
 /system/app/SecVideoPlayer.apk
 /system/app/PanningTryActually.apk
 /system/app/SecCalendar.apk
-/system/app/sCloudBackupApp.apk
 /system/app/GoogleLoginService.apk
+/system/app/sCloudBackupApp.apk
 /system/app/MusicPlayerWT.apk
 /system/app/Gmail2.apk
 /system/app/S_Translator_CSLi.apk
@@ -56,11 +55,9 @@
 /system/app/SecLauncher3.apk
 /system/app/SecSetupWizard2013.apk
 /system/app/talkback.apk
-/system/app/Videos.apk
 /system/app/SecCalendarProvider.apk
 /system/app/AutomationTest_FB.apk
 /system/app/PlayGames.apk
-/system/app/SamsungHubUpdater.apk
 /system/app/MMAppFramework.apk
 /system/app/GoogleServicesFramework.apk
 /system/app/SyncmlDM.apk
@@ -85,8 +82,8 @@
 /system/app/FaceLock.apk
 /system/app/SetupWizard.apk
 /system/app/AllshareMediaShare.apk
-/system/app/FlashBarService.apk
 /system/app/sCloudQuotaApp.apk
+/system/app/FlashBarService.apk
 /system/app/SecDownloadProviderUi.apk
 /system/app/ConfigUpdater.apk
 /system/app/FotaClient.apk
@@ -211,7 +208,7 @@
 /system/app/FusedLocation.apk
 /system/app/EdmSysScopeService.apk
 /system/app/UserDictionaryProvider.apk
-/system/app/EdmVpnServices.apk
 /system/app/EdmSimPinService.apk
+/system/app/EdmVpnServices.apk
 /system/app/PartnerBookmarksProvider.apk
 /system/app/SharedStorageBackup.apk
