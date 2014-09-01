@@ -49,6 +49,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/hw/audio.usb.java.so:system/lib/hw/audio.usb.java.so \
     vendor/samsung/baffinlite/proprietary/lib/hw/gps.java.so:system/lib/hw/gps.java.so \
     vendor/samsung/baffinlite/proprietary/lib/hw/sensors.java.so:system/lib/hw/sensors.java.so \
+    vendor/samsung/baffinlite/proprietary/lib/hw/camera.java.so:system/lib/hw/camera.java.so \
+#    vendor/samsung/baffinlite/proprietary/lib/hw/gralloc.java.so:system/lib/hw/gralloc.java.so \
+#    vendor/samsung/baffinlite/proprietary/lib/hw/hwcomposer.java.so:system/lib/hw/hwcomposer.java.so \
     vendor/samsung/baffinlite/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/samsung/baffinlite/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
     vendor/samsung/baffinlite/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
@@ -102,8 +105,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/usr/lib/alsa-lib/libbcm_hp_filter.so:system/usr/lib/alsa-lib/libbcm_hp_filter.so \
     vendor/samsung/baffinlite/proprietary/usr/lib/alsa-lib/libbcm_test_filter.so:system/usr/lib/alsa-lib/libbcm_test_filter.so \
     vendor/samsung/baffinlite/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
-    vendor/samsung/baffinlite/proprietary/lib/hw/camera.java.so:system/lib/hw/camera.java.so \
-    vendor/samsung/baffinlite/proprietary/lib/hw/gralloc.java.so:system/lib/hw/gralloc.java.so \
-    vendor/samsung/baffinlite/proprietary/lib/hw/hwcomposer.java.so:system/lib/hw/hwcomposer.java.so \
-    vendor/samsung/baffinlite/proprietary/vendor/lib/hw/lights.java.so:system/vendor/lib/hw/lights.java.so \
-    vendor/samsung/baffinlite/proprietary/vendor/lib/hw/power.java.so:system/vendor/lib/hw/power.java.so
+#    vendor/samsung/baffinlite/proprietary/vendor/lib/hw/lights.java.so:system/vendor/lib/hw/lights.java.so \
+    vendor/samsung/baffinlite/proprietary/vendor/lib/hw/power.java.so:system/vendor/lib/hw/power.java.so \
