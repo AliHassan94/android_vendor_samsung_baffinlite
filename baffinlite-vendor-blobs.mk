@@ -66,6 +66,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
     vendor/samsung/baffinlite/proprietary/lib/libbrcmcutils.so:system/lib/libbrcmcutils.so \
     vendor/samsung/baffinlite/proprietary/lib/libbrcmparser.so:system/lib/libbrcmparser.so \
+    vendor/samsung/baffinlite/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/samsung/baffinlite/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+    vendor/samsung/baffinlite/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/samsung/baffinlite/proprietary/lib/libcapi2.so:system/lib/libcapi2.so \
     vendor/samsung/baffinlite/proprietary/lib/libcontainers.so:system/lib/libcontainers.so \
     vendor/samsung/baffinlite/proprietary/lib/libImmVibeJ.so:system/lib/libImmVibeJ.so \
