@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/bin/mttlogger:system/bin/mttlogger \
     vendor/samsung/baffinlite/proprietary/bin/npsmobex:system/bin/npsmobex \
     vendor/samsung/baffinlite/proprietary/bin/rild:system/bin/rild \
-    vendor/samsung/	baffinlite/proprietary/bin/usb_portd:system/bin/usb_portd \
+    vendor/samsung/baffinlite/proprietary/bin/usb_portd:system/bin/usb_portd \
     vendor/samsung/baffinlite/proprietary/bin/wlandutservice:system/bin/wlandutservice \
     vendor/samsung/baffinlite/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/baffinlite/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
