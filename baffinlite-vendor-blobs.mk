@@ -26,9 +26,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/bin/gpslogd:system/bin/gpslogd \
     vendor/samsung/baffinlite/proprietary/bin/immvibed:system/bin/immvibed \
     vendor/samsung/baffinlite/proprietary/bin/macloader:system/bin/macloader \
+    vendor/samsung/baffinlite/proprietary/bin/mfgloader:system/bin/mfgloader \
     vendor/samsung/baffinlite/proprietary/bin/mttlogger:system/bin/mttlogger \
     vendor/samsung/baffinlite/proprietary/bin/npsmobex:system/bin/npsmobex \
     vendor/samsung/baffinlite/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/baffinlite/proprietary/bin/usb_portd:system/bin/usb_portd \
+    vendor/samsung/baffinlite/proprietary/bin/wlandutservice:system/bin/wlandutservice \
     vendor/samsung/baffinlite/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/baffinlite/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/baffinlite/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
@@ -41,9 +44,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
     vendor/samsung/baffinlite/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/baffinlite/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
+    vendor/samsung/baffinlite/proprietary/etc/usb_portd.conf:system/etc/usb_portd.conf \
     vendor/samsung/baffinlite/proprietary/etc/Volume.db:system/etc/Volume.db \
     vendor/samsung/baffinlite/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
+    vendor/samsung/baffinlite/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
+    vendor/samsung/baffinlite/proprietary/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
     vendor/samsung/baffinlite/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
+    vendor/samsung/baffinlite/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/baffinlite/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/baffinlite/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/samsung/baffinlite/proprietary/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
