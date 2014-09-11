@@ -83,6 +83,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libisp2.so:system/lib/libisp2.so \
     vendor/samsung/baffinlite/proprietary/lib/libjpeg_turbo.so:system/lib/libjpeg_turbo.so \
     vendor/samsung/baffinlite/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
+    vendor/samsung/baffinlite/proprietary/lib/libnewcapi2.so:system/lib/libnewcapi2.so \
     vendor/samsung/baffinlite/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/baffinlite/proprietary/lib/librpc.so:system/lib/librpc.so \
     vendor/samsung/baffinlite/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
