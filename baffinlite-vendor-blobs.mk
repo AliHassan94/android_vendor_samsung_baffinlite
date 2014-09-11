@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/bin/wlandutservice:system/bin/wlandutservice \
     vendor/samsung/baffinlite/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/baffinlite/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
+    vendor/samsung/baffinlite/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/samsung/baffinlite/proprietary/etc/DiamondVoice_Filter_NB.txt:system/etc/DiamondVoice_Filter_NB.txt \
     vendor/samsung/baffinlite/proprietary/etc/DiamondVoice_Filter_WB.txt:system/etc/DiamondVoice_Filter_WB.txt \
     vendor/samsung/baffinlite/proprietary/etc/DiamondVoice_NB.txt:system/etc/DiamondVoice_NB.txt \
