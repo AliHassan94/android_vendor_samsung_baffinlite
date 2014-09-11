@@ -77,7 +77,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libbrcmparser.so:system/lib/libbrcmparser.so \
     vendor/samsung/baffinlite/proprietary/lib/libcapi2.so:system/lib/libcapi2.so \
     vendor/samsung/baffinlite/proprietary/lib/libcontainers.so:system/lib/libcontainers.so \
+    vendor/samsung/baffinlite/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
     vendor/samsung/baffinlite/proprietary/lib/libImmVibeJ.so:system/lib/libImmVibeJ.so \
+    vendor/samsung/baffinlite/proprietary/lib/libISP.so:system/lib/libISP.so \
     vendor/samsung/baffinlite/proprietary/lib/libisp2.so:system/lib/libisp2.so \
     vendor/samsung/baffinlite/proprietary/lib/libjpeg_turbo.so:system/lib/libjpeg_turbo.so \
     vendor/samsung/baffinlite/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
