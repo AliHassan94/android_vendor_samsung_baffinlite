@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/bin/wlandutservice:system/bin/wlandutservice \
     vendor/samsung/baffinlite/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/baffinlite/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
+    vendor/samsung/baffinlite/proprietary/etc/asound.conf:system/etc/asound.conf \
     vendor/samsung/baffinlite/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/samsung/baffinlite/proprietary/etc/DiamondVoice_Filter_NB.txt:system/etc/DiamondVoice_Filter_NB.txt \
     vendor/samsung/baffinlite/proprietary/etc/DiamondVoice_Filter_WB.txt:system/etc/DiamondVoice_Filter_WB.txt \
@@ -110,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.video.vc1.hw.decoder.so:system/lib/libOMX.brcm.video.vc1.hw.decoder.so \
     vendor/samsung/baffinlite/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
     vendor/samsung/baffinlite/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
-    vendor/samsung/baffinlite/proprietary/lib/libstagefright_avc_common.so:system/lib/libstagefright_avc_common.so \
     vendor/samsung/baffinlite/proprietary/lib/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so \
     vendor/samsung/baffinlite/proprietary/lib/modules/VoiceSolution.ko:system/lib/modules/VoiceSolution.ko \
     vendor/samsung/baffinlite/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
