@@ -67,6 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/lib_SamsungRec_V03011b.so:system/lib/lib_SamsungRec_V03011b.so \
     vendor/samsung/baffinlite/proprietary/lib/lib_SoundAlive_V01013q.so:system/lib/lib_SoundAlive_V01013q.so \
     vendor/samsung/baffinlite/proprietary/lib/libat.so:system/lib/libat.so \
+    vendor/samsung/baffinlite/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/baffinlite/proprietary/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
     vendor/samsung/baffinlite/proprietary/lib/libbralloc.so:system/lib/libbralloc.so \
     vendor/samsung/baffinlite/proprietary/lib/lib_DNSe_NRSS_ver225.so:system/lib/lib_DNSe_NRSS_ver225.so \
