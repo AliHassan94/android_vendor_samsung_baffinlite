@@ -100,6 +100,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libSoundAlive_VSP_ver315b_arm.so:system/lib/libSoundAlive_VSP_ver315b_arm.so \
     vendor/samsung/baffinlite/proprietary/lib/libsoundspeed.so:system/lib/libsoundspeed.so \
     vendor/samsung/baffinlite/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/samsung/baffinlite/proprietary/lib/libstagefright_avc_common.so:system/lib/libstagefright_avc_common.so \
     vendor/samsung/baffinlite/proprietary/lib/libsthmb.so:system/lib/libsthmb.so \
     vendor/samsung/baffinlite/proprietary/lib/libuecodec.so:system/lib/libuecodec.so \
     vendor/samsung/baffinlite/proprietary/lib/libusb_config.so:system/lib/libusb_config.so \
@@ -123,8 +124,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/usr/lib/alsa-lib/libbcm_test_filter.so:system/usr/lib/alsa-lib/libbcm_test_filter.so \
     vendor/samsung/baffinlite/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/samsung/baffinlite/proprietary/lib/hw/camera.java.so:system/lib/hw/camera.java.so \
-    vendor/samsung/baffinlite/proprietary/vendor/lib/hw/lights.java.so:system/vendor/lib/hw/lights.java.so \
-    vendor/samsung/baffinlite/proprietary/vendor/lib/hw/power.java.so:system/vendor/lib/hw/power.java.so \
     vendor/samsung/baffinlite/proprietary/lib/hw/gralloc.java.so:system/lib/hw/gralloc.java.so \
     vendor/samsung/baffinlite/proprietary/lib/hw/hwcomposer.java.so:system/lib/hw/hwcomposer.java.so \
     vendor/samsung/baffinlite/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
@@ -154,4 +153,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.video.vpx.decoder.so:system/lib/libOMX.brcm.video.vpx.decoder.so \
     vendor/samsung/baffinlite/proprietary/lib/libV3D_csc.so:system/lib/libV3D_csc.so \
     vendor/samsung/baffinlite/proprietary/lib/libV3D_driver.so:system/lib/libV3D_driver.so \
-    
+    vendor/samsung/baffinlite/proprietary/vendor/lib/hw/lights.java.so:system/vendor/lib/hw/lights.java.so \
+    vendor/samsung/baffinlite/proprietary/vendor/lib/hw/power.java.so:system/vendor/lib/hw/power.java.so \
