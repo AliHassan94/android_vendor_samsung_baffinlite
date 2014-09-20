@@ -90,12 +90,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/baffinlite/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/baffinlite/proprietary/lib/librpc.so:system/lib/librpc.so \
+    vendor/samsung/baffinlite/proprietary/lib/libsAMRNB.so:system/lib/libsAMRNB.so \
+    vendor/samsung/baffinlite/proprietary/lib/libsAMRWB.so:system/lib/libsAMRWB.so \
     vendor/samsung/baffinlite/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     vendor/samsung/baffinlite/proprietary/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
     vendor/samsung/baffinlite/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/baffinlite/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/baffinlite/proprietary/lib/libsmte.so:system/lib/libsmte.so \
     vendor/samsung/baffinlite/proprietary/lib/libsoc.so:system/lib/libsoc.so \
+    vendor/samsung/baffinlite/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
+    vendor/samsung/baffinlite/proprietary/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
     vendor/samsung/baffinlite/proprietary/lib/libsoundalive.so:system/lib/libsoundalive.so \
     vendor/samsung/baffinlite/proprietary/lib/libSoundAlive_VSP_ver315b_arm.so:system/lib/libSoundAlive_VSP_ver315b_arm.so \
     vendor/samsung/baffinlite/proprietary/lib/libsoundspeed.so:system/lib/libsoundspeed.so \
