@@ -140,7 +140,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so \
     vendor/samsung/baffinlite/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/baffinlite/proprietary/lib/egl/libGLES_java.so:system/lib/egl/libGLES_java.so \
-    vendor/samsung/baffinlite/proprietary/lib/hw/audio_policy.java.so:system/lib/hw/audio_policy.java.so \
     vendor/samsung/baffinlite/proprietary/lib/hw/camera.java.so:system/lib/hw/camera.java.so \
     vendor/samsung/baffinlite/proprietary/lib/hw/gralloc.java.so:system/lib/hw/gralloc.java.so \
     vendor/samsung/baffinlite/proprietary/lib/hw/hwcomposer.java.so:system/lib/hw/hwcomposer.java.so \
