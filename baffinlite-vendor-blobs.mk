@@ -116,7 +116,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
     vendor/samsung/baffinlite/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
     vendor/samsung/baffinlite/proprietary/lib/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so \
-    vendor/samsung/baffinlite/proprietary/lib/modules/VoiceSolution.ko:system/lib/modules/VoiceSolution.ko \
     vendor/samsung/baffinlite/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/baffinlite/proprietary/lib/egl/libGLES_java.so:system/lib/egl/libGLES_java.so \
     vendor/samsung/baffinlite/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so:system/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so \
