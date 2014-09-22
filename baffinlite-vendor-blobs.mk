@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/baffinlite/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/baffinlite/proprietary/etc/asound.conf:system/etc/asound.conf \
-    vendor/samsung/baffinlite/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/samsung/baffinlite/proprietary/etc/DiamondVoice_Filter_NB.txt:system/etc/DiamondVoice_Filter_NB.txt \
     vendor/samsung/baffinlite/proprietary/etc/DiamondVoice_Filter_WB.txt:system/etc/DiamondVoice_Filter_WB.txt \
     vendor/samsung/baffinlite/proprietary/etc/DiamondVoice_NB.txt:system/etc/DiamondVoice_NB.txt \
@@ -44,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/etc/DiamondVoice_WB.txt:system/etc/DiamondVoice_WB.txt \
     vendor/samsung/baffinlite/proprietary/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
     vendor/samsung/baffinlite/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/samsung/baffinlite/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
     vendor/samsung/baffinlite/proprietary/etc/usb_portd.conf:system/etc/usb_portd.conf \
     vendor/samsung/baffinlite/proprietary/etc/Volume.db:system/etc/Volume.db \
     vendor/samsung/baffinlite/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
@@ -54,13 +52,23 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/baffinlite/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/baffinlite/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+    vendor/samsung/baffinlite/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/samsung/baffinlite/proprietary/lib/egl/libGLES_java.so:system/lib/egl/libGLES_java.so \
+    vendor/samsung/baffinlite/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
+    vendor/samsung/baffinlite/proprietary/lib/drm/libomaplugin.so:system/lib/drm/libomaplugin.so \
+    vendor/samsung/baffinlite/proprietary/lib/drm/libplayreadyplugin.so:system/lib/drm/libplayreadyplugin.so \
     vendor/samsung/baffinlite/proprietary/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
     vendor/samsung/baffinlite/proprietary/lib/hw/audio.primary.java.so:system/lib/hw/audio.primary.java.so \
     vendor/samsung/baffinlite/proprietary/lib/hw/audio.usb.java.so:system/lib/hw/audio.usb.java.so \
+    vendor/samsung/baffinlite/proprietary/lib/hw/camera.java.so:system/lib/hw/camera.java.so \
+    vendor/samsung/baffinlite/proprietary/lib/hw/hwcomposer.java.so:system/lib/hw/hwcomposer.java.so \
     vendor/samsung/baffinlite/proprietary/lib/hw/gps.java.so:system/lib/hw/gps.java.so \
+    vendor/samsung/baffinlite/proprietary/lib/hw/gralloc.java.so:system/lib/hw/gralloc.java.so \
     vendor/samsung/baffinlite/proprietary/lib/hw/sensors.java.so:system/lib/hw/sensors.java.so \
     vendor/samsung/baffinlite/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so \
     vendor/samsung/baffinlite/proprietary/lib/libasound.so:system/lib/libasound.so \
+    vendor/samsung/baffinlite/proprietary/lib/libASP15_TMI_Player_ics.so:system/lib/libASP15_TMI_Player_ics.so \
+    vendor/samsung/baffinlite/proprietary/lib/libASP15_ffmpeg_neon.so:system/lib/libASP15_ffmpeg_neon.so \
     vendor/samsung/baffinlite/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
     vendor/samsung/baffinlite/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
     vendor/samsung/baffinlite/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v03008.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so \
@@ -70,6 +78,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/baffinlite/proprietary/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
     vendor/samsung/baffinlite/proprietary/lib/libbralloc.so:system/lib/libbralloc.so \
+    vendor/samsung/baffinlite/proprietary/lib/libbrcmamrnbaridec.so:system/lib/libbrcmamrnbaridec.so
+    vendor/samsung/baffinlite/proprietary/lib/libbrcmamrnbarienc.so:system/lib/libbrcmamrnbarienc.so
+    vendor/samsung/baffinlite/proprietary/lib/libbrcmamrwbaridec.so:system/lib/libbrcmamrwbaridec.so
+    vendor/samsung/baffinlite/proprietary/lib/libbrcmamrwbarienc.so:system/lib/libbrcmamrwbarienc.so
     vendor/samsung/baffinlite/proprietary/lib/lib_DNSe_NRSS_ver225.so:system/lib/lib_DNSe_NRSS_ver225.so \
     vendor/samsung/baffinlite/proprietary/lib/libuip.so:system/lib/libuip.so \
     vendor/samsung/baffinlite/proprietary/lib/libat_stubs.so:system/lib/libat_stubs.so \
@@ -142,14 +154,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
     vendor/samsung/baffinlite/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
     vendor/samsung/baffinlite/proprietary/lib/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so \
-    vendor/samsung/baffinlite/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/samsung/baffinlite/proprietary/lib/egl/libGLES_java.so:system/lib/egl/libGLES_java.so \
-    vendor/samsung/baffinlite/proprietary/lib/hw/camera.java.so:system/lib/hw/camera.java.so \
-    vendor/samsung/baffinlite/proprietary/lib/hw/gralloc.java.so:system/lib/hw/gralloc.java.so \
-    vendor/samsung/baffinlite/proprietary/lib/hw/hwcomposer.java.so:system/lib/hw/hwcomposer.java.so \
-    vendor/samsung/baffinlite/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-    vendor/samsung/baffinlite/proprietary/lib/drm/libomaplugin.so:system/lib/drm/libomaplugin.so \
-    vendor/samsung/baffinlite/proprietary/lib/drm/libplayreadyplugin.so:system/lib/drm/libplayreadyplugin.so \
+
     vendor/samsung/baffinlite/proprietary/lib/libV3D_csc.so:system/lib/libV3D_csc.so \
     vendor/samsung/baffinlite/proprietary/lib/libV3D_driver.so:system/lib/libV3D_driver.so \
     vendor/samsung/baffinlite/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so:system/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so \
