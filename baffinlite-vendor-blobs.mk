@@ -69,12 +69,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/samsung/baffinlite/proprietary/lib/libASP15_TMI_Player_ics.so:system/lib/libASP15_TMI_Player_ics.so \
     vendor/samsung/baffinlite/proprietary/lib/libASP15_ffmpeg_neon.so:system/lib/libASP15_ffmpeg_neon.so \
-    vendor/samsung/baffinlite/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
-    vendor/samsung/baffinlite/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
-    vendor/samsung/baffinlite/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v03008.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so \
-    vendor/samsung/baffinlite/proprietary/lib/lib_SamsungRec_V03011b.so:system/lib/lib_SamsungRec_V03011b.so \
-    vendor/samsung/baffinlite/proprietary/lib/lib_SoundAlive_V01013q.so:system/lib/lib_SoundAlive_V01013q.so \
     vendor/samsung/baffinlite/proprietary/lib/libat.so:system/lib/libat.so \
+    vendor/samsung/baffinlite/proprietary/lib/libat_stubs.so:system/lib/libat_stubs.so \
+    vendor/samsung/baffinlite/proprietary/lib/libatlog.so:system/lib/libatlog.so \
     vendor/samsung/baffinlite/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/baffinlite/proprietary/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
     vendor/samsung/baffinlite/proprietary/lib/libbralloc.so:system/lib/libbralloc.so \
@@ -82,13 +79,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libbrcmamrnbarienc.so:system/lib/libbrcmamrnbarienc.so
     vendor/samsung/baffinlite/proprietary/lib/libbrcmamrwbaridec.so:system/lib/libbrcmamrwbaridec.so
     vendor/samsung/baffinlite/proprietary/lib/libbrcmamrwbarienc.so:system/lib/libbrcmamrwbarienc.so
-    vendor/samsung/baffinlite/proprietary/lib/lib_DNSe_NRSS_ver225.so:system/lib/lib_DNSe_NRSS_ver225.so \
-    vendor/samsung/baffinlite/proprietary/lib/libuip.so:system/lib/libuip.so \
-    vendor/samsung/baffinlite/proprietary/lib/libat_stubs.so:system/lib/libat_stubs.so \
-    vendor/samsung/baffinlite/proprietary/lib/libatlog.so:system/lib/libatlog.so \
-    vendor/samsung/baffinlite/proprietary/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
     vendor/samsung/baffinlite/proprietary/lib/libbrcmcutils.so:system/lib/libbrcmcutils.so \
     vendor/samsung/baffinlite/proprietary/lib/libbrcmparser.so:system/lib/libbrcmparser.so \
+    vendor/samsung/baffinlite/proprietary/lib/lib_DNSe_NRSS_ver225.so:system/lib/lib_DNSe_NRSS_ver225.so \
+    vendor/samsung/baffinlite/proprietary/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
     vendor/samsung/baffinlite/proprietary/lib/libcapi2.so:system/lib/libcapi2.so \
     vendor/samsung/baffinlite/proprietary/lib/libcontainers.so:system/lib/libcontainers.so \
     vendor/samsung/baffinlite/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
@@ -105,7 +99,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libsAMRNB.so:system/lib/libsAMRNB.so \
     vendor/samsung/baffinlite/proprietary/lib/libsAMRWB.so:system/lib/libsAMRWB.so \
     vendor/samsung/baffinlite/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
+    vendor/samsung/baffinlite/proprietary/lib/lib_SamsungRec_V03011b.so:system/lib/lib_SamsungRec_V03011b.so \
+    vendor/samsung/baffinlite/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
+    vendor/samsung/baffinlite/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v03008.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so \
     vendor/samsung/baffinlite/proprietary/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
+    vendor/samsung/baffinlite/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
     vendor/samsung/baffinlite/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/baffinlite/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/baffinlite/proprietary/lib/libsmte.so:system/lib/libsmte.so \
@@ -113,20 +111,25 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
     vendor/samsung/baffinlite/proprietary/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
     vendor/samsung/baffinlite/proprietary/lib/libsoundalive.so:system/lib/libsoundalive.so \
+    vendor/samsung/baffinlite/proprietary/lib/lib_SoundAlive_V01013q.so:system/lib/lib_SoundAlive_V01013q.so \
     vendor/samsung/baffinlite/proprietary/lib/libSoundAlive_VSP_ver315b_arm.so:system/lib/libSoundAlive_VSP_ver315b_arm.so \
     vendor/samsung/baffinlite/proprietary/lib/libsoundspeed.so:system/lib/libsoundspeed.so \
     vendor/samsung/baffinlite/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/baffinlite/proprietary/lib/libstagefright_avc_common.so:system/lib/libstagefright_avc_common.so \
     vendor/samsung/baffinlite/proprietary/lib/libsthmb.so:system/lib/libsthmb.so \
     vendor/samsung/baffinlite/proprietary/lib/libuecodec.so:system/lib/libuecodec.so \
+    vendor/samsung/baffinlite/proprietary/lib/libuip.so:system/lib/libuip.so \
     vendor/samsung/baffinlite/proprietary/lib/libusb_config.so:system/lib/libusb_config.so \
-    vendor/samsung/baffinlite/proprietary/lib/libVCOS.so:system/lib/libVCOS.so \
-    vendor/samsung/baffinlite/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
-    vendor/samsung/baffinlite/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+    vendor/samsung/baffinlite/proprietary/lib/libV3D_csc.so:system/lib/libV3D_csc.so \
+    vendor/samsung/baffinlite/proprietary/lib/libV3D_driver.so:system/lib/libV3D_driver.so \
+    vendor/samsung/baffinlite/proprietary/lib/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so \
     vendor/samsung/baffinlite/proprietary/lib/libVCE_csl.so:system/lib/libVCE_csl.so \
     vendor/samsung/baffinlite/proprietary/lib/libVCE_driver.so:system/lib/libVCE_driver.so \
     vendor/samsung/baffinlite/proprietary/lib/libVCE_imageconv.so:system/lib/libVCE_imageconv.so \
     vendor/samsung/baffinlite/proprietary/lib/libVCE_vtq.so:system/lib/libVCE_vtq.so \
+    vendor/samsung/baffinlite/proprietary/lib/libVCOS.so:system/lib/libVCOS.so \
+    vendor/samsung/baffinlite/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
+    vendor/samsung/baffinlite/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/baffinlite/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.audio.aac.decoder.so:system/lib/libOMX.brcm.audio.aac.decoder.so \
     vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.audio.aac.encoder.so:system/lib/libOMX.brcm.audio.aac.encoder.so \
@@ -151,12 +154,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.video.mpeg4.hw.decoder.so:system/lib/libOMX.brcm.video.mpeg4.hw.decoder.so \
     vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.video.vc1.hw.decoder.so:system/lib/libOMX.brcm.video.vc1.hw.decoder.so \
     vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.video.vpx.decoder.so:system/lib/libOMX.brcm.video.vpx.decoder.so \
-    vendor/samsung/baffinlite/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
-    vendor/samsung/baffinlite/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
-    vendor/samsung/baffinlite/proprietary/lib/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so \
-
-    vendor/samsung/baffinlite/proprietary/lib/libV3D_csc.so:system/lib/libV3D_csc.so \
-    vendor/samsung/baffinlite/proprietary/lib/libV3D_driver.so:system/lib/libV3D_driver.so \
     vendor/samsung/baffinlite/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so:system/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so \
     vendor/samsung/baffinlite/proprietary/usr/lib/alsa-lib/libbcm_hp_filter.so:system/usr/lib/alsa-lib/libbcm_hp_filter.so \
     vendor/samsung/baffinlite/proprietary/usr/lib/alsa-lib/libbcm_test_filter.so:system/usr/lib/alsa-lib/libbcm_test_filter.so \
