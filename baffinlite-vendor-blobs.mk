@@ -99,6 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libsAMRNB.so:system/lib/libsAMRNB.so \
     vendor/samsung/baffinlite/proprietary/lib/libsAMRWB.so:system/lib/libsAMRWB.so \
     vendor/samsung/baffinlite/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
+    vendor/samsung/baffinlite/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
     vendor/samsung/baffinlite/proprietary/lib/lib_SamsungRec_V03011b.so:system/lib/lib_SamsungRec_V03011b.so \
     vendor/samsung/baffinlite/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
     vendor/samsung/baffinlite/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v03008.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so \
