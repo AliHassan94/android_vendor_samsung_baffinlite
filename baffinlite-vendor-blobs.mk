@@ -75,10 +75,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/baffinlite/proprietary/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
     vendor/samsung/baffinlite/proprietary/lib/libbralloc.so:system/lib/libbralloc.so \
-    vendor/samsung/baffinlite/proprietary/lib/libbrcmamrnbaridec.so:system/lib/libbrcmamrnbaridec.so
-    vendor/samsung/baffinlite/proprietary/lib/libbrcmamrnbarienc.so:system/lib/libbrcmamrnbarienc.so
-    vendor/samsung/baffinlite/proprietary/lib/libbrcmamrwbaridec.so:system/lib/libbrcmamrwbaridec.so
-    vendor/samsung/baffinlite/proprietary/lib/libbrcmamrwbarienc.so:system/lib/libbrcmamrwbarienc.so
+    vendor/samsung/baffinlite/proprietary/lib/libbrcmamrnbaridec.so:system/lib/libbrcmamrnbaridec.so \
+    vendor/samsung/baffinlite/proprietary/lib/libbrcmamrnbarienc.so:system/lib/libbrcmamrnbarienc.so \
+    vendor/samsung/baffinlite/proprietary/lib/libbrcmamrwbaridec.so:system/lib/libbrcmamrwbaridec.so \
+    vendor/samsung/baffinlite/proprietary/lib/libbrcmamrwbarienc.so:system/lib/libbrcmamrwbarienc.so \
     vendor/samsung/baffinlite/proprietary/lib/libbrcmcutils.so:system/lib/libbrcmcutils.so \
     vendor/samsung/baffinlite/proprietary/lib/libbrcmparser.so:system/lib/libbrcmparser.so \
     vendor/samsung/baffinlite/proprietary/lib/lib_DNSe_NRSS_ver225.so:system/lib/lib_DNSe_NRSS_ver225.so \
