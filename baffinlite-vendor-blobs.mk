@@ -69,11 +69,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/baffinlite/proprietary/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
     vendor/samsung/baffinlite/proprietary/lib/libbralloc.so:system/lib/libbralloc.so \
+    vendor/samsung/baffinlite/proprietary/lib/libbrcmaacenc.so:system/lib/libbrcmaacenc.so \
     vendor/samsung/baffinlite/proprietary/lib/libbrcmamrnbaridec.so:system/lib/libbrcmamrnbaridec.so \
     vendor/samsung/baffinlite/proprietary/lib/libbrcmamrnbarienc.so:system/lib/libbrcmamrnbarienc.so \
     vendor/samsung/baffinlite/proprietary/lib/libbrcmamrwbaridec.so:system/lib/libbrcmamrwbaridec.so \
     vendor/samsung/baffinlite/proprietary/lib/libbrcmamrwbarienc.so:system/lib/libbrcmamrwbarienc.so \
     vendor/samsung/baffinlite/proprietary/lib/libbrcmcutils.so:system/lib/libbrcmcutils.so \
+    vendor/samsung/baffinlite/proprietary/lib/libbrcmheaacdecoder.so:system/lib/libbrcmheaacdecoder.so \
+    vendor/samsung/baffinlite/proprietary/lib/libbrcmmp3dec.so:system/lib/libbrcmmp3dec.so \
+    vendor/samsung/baffinlite/proprietary/lib/libbrcmmp3enc.so:system/lib/libbrcmmp3enc.so \
+    vendor/samsung/baffinlite/proprietary/lib/libbrcmwmadec.so:system/lib/libbrcmwmadec.so \
+    vendor/samsung/baffinlite/proprietary/lib/libBrcmOMX_Component.so:system/lib/libBrcmOMX_Component.so \
+    vendor/samsung/baffinlite/proprietary/lib/libBrcmOMX_Core.so:system/lib/libBrcmOMX_Core.so \
+    vendor/samsung/baffinlite/proprietary/lib/libhwcodec.so:system/lib/libhwcodec.so \
     vendor/samsung/baffinlite/proprietary/lib/libbrcmparser.so:system/lib/libbrcmparser.so \
     vendor/samsung/baffinlite/proprietary/lib/lib_DNSe_NRSS_ver225.so:system/lib/lib_DNSe_NRSS_ver225.so \
     vendor/samsung/baffinlite/proprietary/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
@@ -101,6 +109,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
     vendor/samsung/baffinlite/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/baffinlite/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/baffinlite/proprietary/lib/libsharevia.so:system/lib/libsharevia.so \
+    vendor/samsung/baffinlite/proprietary/lib/libsharevia_jni.so:system/lib/libsharevia_jni.so \
+    vendor/samsung/baffinlite/proprietary/lib/libsig.so:system/lib/libsig.so \
     vendor/samsung/baffinlite/proprietary/lib/libsmte.so:system/lib/libsmte.so \
     vendor/samsung/baffinlite/proprietary/lib/libsoc.so:system/lib/libsoc.so \
     vendor/samsung/baffinlite/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
