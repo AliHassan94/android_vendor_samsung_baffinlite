@@ -89,7 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libcodec_util.so:system/lib/libcodec_util.so \
     vendor/samsung/baffinlite/proprietary/lib/libcontainers.so:system/lib/libcontainers.so \
     vendor/samsung/baffinlite/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
-    vendor/samsung/baffinlite/proprietary/lib/libfactoryutil:system/lib/libfactoryutil.so \
+    vendor/samsung/baffinlite/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/baffinlite/proprietary/lib/libh264_dec_bp.so:system/lib/libh264_dec_bp.so \
     vendor/samsung/baffinlite/proprietary/lib/libh264_enc_bp.so:system/lib/libh264_enc_bp.so \
     vendor/samsung/baffinlite/proprietary/lib/libh264_dec_hp.so:system/lib/libh264_dec_hp.so \
