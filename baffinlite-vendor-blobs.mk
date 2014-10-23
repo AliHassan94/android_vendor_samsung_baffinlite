@@ -59,6 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/hw/gps.java.so:system/lib/hw/gps.java.so \
     vendor/samsung/baffinlite/proprietary/lib/hw/gralloc.java.so:system/lib/hw/gralloc.java.so \
     vendor/samsung/baffinlite/proprietary/lib/hw/sensors.java.so:system/lib/hw/sensors.java.so \
+    vendor/samsung/baffinlite/proprietary/lib/libaacdecoderwrapper.so:system/lib/libaacdecoderwrapper.so \
     vendor/samsung/baffinlite/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so \
     vendor/samsung/baffinlite/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/samsung/baffinlite/proprietary/lib/libASP15_TMI_Player_ics.so:system/lib/libASP15_TMI_Player_ics.so \
@@ -81,19 +82,27 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libbrcmwmadec.so:system/lib/libbrcmwmadec.so \
     vendor/samsung/baffinlite/proprietary/lib/libBrcmOMX_Component.so:system/lib/libBrcmOMX_Component.so \
     vendor/samsung/baffinlite/proprietary/lib/libBrcmOMX_Core.so:system/lib/libBrcmOMX_Core.so \
-    vendor/samsung/baffinlite/proprietary/lib/libhwcodec.so:system/lib/libhwcodec.so \
     vendor/samsung/baffinlite/proprietary/lib/libbrcmparser.so:system/lib/libbrcmparser.so \
     vendor/samsung/baffinlite/proprietary/lib/lib_DNSe_NRSS_ver225.so:system/lib/lib_DNSe_NRSS_ver225.so \
     vendor/samsung/baffinlite/proprietary/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
     vendor/samsung/baffinlite/proprietary/lib/libcapi2.so:system/lib/libcapi2.so \
+    vendor/samsung/baffinlite/proprietary/lib/libcodec_util.so:system/lib/libcodec_util.so \
     vendor/samsung/baffinlite/proprietary/lib/libcontainers.so:system/lib/libcontainers.so \
     vendor/samsung/baffinlite/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
-    vendor/samsung/baffinlite/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
+    vendor/samsung/baffinlite/proprietary/lib/libfactoryutil:system/lib/libfactoryutil.so \
+    vendor/samsung/baffinlite/proprietary/lib/libh264_dec_bp.so:system/lib/libh264_dec_bp.so \
+    vendor/samsung/baffinlite/proprietary/lib/libh264_enc_bp.so:system/lib/libh264_enc_bp.so \
+    vendor/samsung/baffinlite/proprietary/lib/libh264_dec_hp.so:system/lib/libh264_dec_hp.so \
+    vendor/samsung/baffinlite/proprietary/lib/libh264_enc_hp.so:system/lib/libh264_enc_hp.so \
+    vendor/samsung/baffinlite/proprietary/lib/libh263_dec_p3.so:system/lib/libh263_dec_p3.so \
+    vendor/samsung/baffinlite/proprietary/lib/libh263_enc_p3.so:system/lib/libh263_enc_p3.so \
+    vendor/samsung/baffinlite/proprietary/lib/libhwcodec.so:system/lib/libhwcodec.so \
     vendor/samsung/baffinlite/proprietary/lib/libImmVibeJ.so:system/lib/libImmVibeJ.so \
     vendor/samsung/baffinlite/proprietary/lib/libISP.so:system/lib/libISP.so \
     vendor/samsung/baffinlite/proprietary/lib/libisp2.so:system/lib/libisp2.so \
     vendor/samsung/baffinlite/proprietary/lib/libjpeg_turbo.so:system/lib/libjpeg_turbo.so \
     vendor/samsung/baffinlite/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
+    vendor/samsung/baffinlite/proprietary/lib/libmpeg4_dec_asp.so:system/lib/libmpeg4_dec_asp.so \
     vendor/samsung/baffinlite/proprietary/lib/libnewcapi2.so:system/lib/libnewcapi2.so \
     vendor/samsung/baffinlite/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/baffinlite/proprietary/lib/libril.so:system/lib/libril.so \
@@ -133,6 +142,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libVCE_imageconv.so:system/lib/libVCE_imageconv.so \
     vendor/samsung/baffinlite/proprietary/lib/libVCE_vtq.so:system/lib/libVCE_vtq.so \
     vendor/samsung/baffinlite/proprietary/lib/libVCOS.so:system/lib/libVCOS.so \
+    vendor/samsung/baffinlite/proprietary/lib/libvpx_dec.so:system/lib/libvpx_dec.so \
     vendor/samsung/baffinlite/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
     vendor/samsung/baffinlite/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/baffinlite/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
