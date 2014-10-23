@@ -93,7 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libh264_dec_bp.so:system/lib/libh264_dec_bp.so \
     vendor/samsung/baffinlite/proprietary/lib/libh264_enc_bp.so:system/lib/libh264_enc_bp.so \
     vendor/samsung/baffinlite/proprietary/lib/libh264_dec_hp.so:system/lib/libh264_dec_hp.so \
-    vendor/samsung/baffinlite/proprietary/lib/libh264_enc_hp.so:system/lib/libh264_enc_hp.so \
     vendor/samsung/baffinlite/proprietary/lib/libh263_dec_p3.so:system/lib/libh263_dec_p3.so \
     vendor/samsung/baffinlite/proprietary/lib/libh263_enc_p3.so:system/lib/libh263_enc_p3.so \
     vendor/samsung/baffinlite/proprietary/lib/libhwcodec.so:system/lib/libhwcodec.so \
