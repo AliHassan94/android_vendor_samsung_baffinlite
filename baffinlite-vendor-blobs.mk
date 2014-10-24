@@ -131,6 +131,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libsoundspeed.so:system/lib/libsoundspeed.so \
     vendor/samsung/baffinlite/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/baffinlite/proprietary/lib/libsthmb.so:system/lib/libsthmb.so \
+    vendor/samsung/baffinlite/proprietary/lib/libtiming.so:system/lib/libtiming.so \
     vendor/samsung/baffinlite/proprietary/lib/libuecodec.so:system/lib/libuecodec.so \
     vendor/samsung/baffinlite/proprietary/lib/libuip.so:system/lib/libuip.so \
     vendor/samsung/baffinlite/proprietary/lib/libusb_config.so:system/lib/libusb_config.so \
