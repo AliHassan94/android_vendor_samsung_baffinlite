@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/hw/gralloc.java.so:system/lib/hw/gralloc.java.so \
     vendor/samsung/baffinlite/proprietary/lib/hw/sensors.java.so:system/lib/hw/sensors.java.so \
     vendor/samsung/baffinlite/proprietary/lib/libaacdecoderwrapper.so:system/lib/libaacdecoderwrapper.so \
+    vendor/samsung/baffinlite/proprietary/lib/libaac_enc_dummy.so:system/lib/libaac_enc_dummy.so \
     vendor/samsung/baffinlite/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so \
     vendor/samsung/baffinlite/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/samsung/baffinlite/proprietary/lib/libASP15_TMI_Player_ics.so:system/lib/libASP15_TMI_Player_ics.so \
@@ -91,11 +92,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
     vendor/samsung/baffinlite/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/baffinlite/proprietary/lib/libFraunhoferAAC.so:system/lib/libFraunhoferAAC.so \
-    vendor/samsung/baffinlite/proprietary/lib/libh264_dec_bp.so:system/lib/libh264_dec_bp.so \
-    vendor/samsung/baffinlite/proprietary/lib/libh264_enc_bp.so:system/lib/libh264_enc_bp.so \
-    vendor/samsung/baffinlite/proprietary/lib/libh264_dec_hp.so:system/lib/libh264_dec_hp.so \
     vendor/samsung/baffinlite/proprietary/lib/libh263_dec_p3.so:system/lib/libh263_dec_p3.so \
     vendor/samsung/baffinlite/proprietary/lib/libh263_enc_p3.so:system/lib/libh263_enc_p3.so \
+    vendor/samsung/baffinlite/proprietary/lib/libh264_dec_bp.so:system/lib/libh264_dec_bp.so \
+    vendor/samsung/baffinlite/proprietary/lib/libh264_dec_hp.so:system/lib/libh264_dec_hp.so \
+    vendor/samsung/baffinlite/proprietary/lib/libh264_dummy_enc.so:system/lib/libh264_dummy_enc.so \
+	vendor/samsung/baffinlite/proprietary/lib/libh264_enc_bp.so:system/lib/libh264_enc_bp.so \
     vendor/samsung/baffinlite/proprietary/lib/libhwcodec.so:system/lib/libhwcodec.so \
     vendor/samsung/baffinlite/proprietary/lib/libImmVibeJ.so:system/lib/libImmVibeJ.so \
     vendor/samsung/baffinlite/proprietary/lib/libISP.so:system/lib/libISP.so \
@@ -103,6 +105,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libjpeg_turbo.so:system/lib/libjpeg_turbo.so \
     vendor/samsung/baffinlite/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
     vendor/samsung/baffinlite/proprietary/lib/libmpeg4_dec_asp.so:system/lib/libmpeg4_dec_asp.so \
+    vendor/samsung/baffinlite/proprietary/lib/libmpeg4_dummy_enc.so:system/lib/libmpeg4_dummy_enc.so \
+	vendor/samsung/baffinlite/proprietary/lib/libmpeg4_enc_sp.so:system/lib/libmpeg4_enc_sp.so \
+	vendor/samsung/baffinlite/proprietary/lib/libmpeg4_fake_dec.so:system/lib/libmpeg4_fake_dec.so \
     vendor/samsung/baffinlite/proprietary/lib/libnewcapi2.so:system/lib/libnewcapi2.so \
     vendor/samsung/baffinlite/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/baffinlite/proprietary/lib/libril.so:system/lib/libril.so \
