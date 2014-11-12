@@ -73,7 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libcontainers.so:system/lib/libcontainers.so \
     vendor/samsung/baffinlite/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
     vendor/samsung/baffinlite/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
-    vendor/samsung/baffinlite/proprietary/lib/libFraunhoferAAC.so:system/lib/libFraunhoferAAC.so \
     vendor/samsung/baffinlite/proprietary/lib/libh263_dec_p3.so:system/lib/libh263_dec_p3.so \
     vendor/samsung/baffinlite/proprietary/lib/libh263_enc_p3.so:system/lib/libh263_enc_p3.so \
     vendor/samsung/baffinlite/proprietary/lib/libh264_dec_bp.so:system/lib/libh264_dec_bp.so \
@@ -94,8 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/baffinlite/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/baffinlite/proprietary/lib/librpc.so:system/lib/librpc.so \
-    vendor/samsung/baffinlite/proprietary/lib/libsAMRNB.so:system/lib/libsAMRNB.so \
-    vendor/samsung/baffinlite/proprietary/lib/libsAMRWB.so:system/lib/libsAMRWB.so \
     vendor/samsung/baffinlite/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     vendor/samsung/baffinlite/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
     vendor/samsung/baffinlite/proprietary/lib/lib_SamsungRec_V03011b.so:system/lib/lib_SamsungRec_V03011b.so \
@@ -110,8 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libsig.so:system/lib/libsig.so \
     vendor/samsung/baffinlite/proprietary/lib/libsmte.so:system/lib/libsmte.so \
     vendor/samsung/baffinlite/proprietary/lib/libsoc.so:system/lib/libsoc.so \
-    vendor/samsung/baffinlite/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
-    vendor/samsung/baffinlite/proprietary/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
     vendor/samsung/baffinlite/proprietary/lib/libsoundalive.so:system/lib/libsoundalive.so \
     vendor/samsung/baffinlite/proprietary/lib/lib_SoundAlive_V01013q.so:system/lib/lib_SoundAlive_V01013q.so \
     vendor/samsung/baffinlite/proprietary/lib/libSoundAlive_VSP_ver315b_arm.so:system/lib/libSoundAlive_VSP_ver315b_arm.so \
