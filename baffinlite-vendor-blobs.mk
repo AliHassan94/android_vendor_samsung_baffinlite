@@ -54,8 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/hw/gps.java.so:system/lib/hw/gps.java.so \
     vendor/samsung/baffinlite/proprietary/lib/hw/gralloc.java.so:system/lib/hw/gralloc.java.so \
     vendor/samsung/baffinlite/proprietary/lib/hw/sensors.java.so:system/lib/hw/sensors.java.so \
-    vendor/samsung/baffinlite/proprietary/lib/libaacdecoderwrapper.so:system/lib/libaacdecoderwrapper.so \
-    vendor/samsung/baffinlite/proprietary/lib/libaac_enc_dummy.so:system/lib/libaac_enc_dummy.so \
     vendor/samsung/baffinlite/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so \
     vendor/samsung/baffinlite/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/samsung/baffinlite/proprietary/lib/libASP15_TMI_Player_ics.so:system/lib/libASP15_TMI_Player_ics.so \
@@ -66,18 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/baffinlite/proprietary/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
     vendor/samsung/baffinlite/proprietary/lib/libbralloc.so:system/lib/libbralloc.so \
-    vendor/samsung/baffinlite/proprietary/lib/libbrcmaacenc.so:system/lib/libbrcmaacenc.so \
-    vendor/samsung/baffinlite/proprietary/lib/libbrcmamrnbaridec.so:system/lib/libbrcmamrnbaridec.so \
-    vendor/samsung/baffinlite/proprietary/lib/libbrcmamrnbarienc.so:system/lib/libbrcmamrnbarienc.so \
-    vendor/samsung/baffinlite/proprietary/lib/libbrcmamrwbaridec.so:system/lib/libbrcmamrwbaridec.so \
-    vendor/samsung/baffinlite/proprietary/lib/libbrcmamrwbarienc.so:system/lib/libbrcmamrwbarienc.so \
     vendor/samsung/baffinlite/proprietary/lib/libbrcmcutils.so:system/lib/libbrcmcutils.so \
-    vendor/samsung/baffinlite/proprietary/lib/libbrcmheaacdecoder.so:system/lib/libbrcmheaacdecoder.so \
-    vendor/samsung/baffinlite/proprietary/lib/libbrcmmp3dec.so:system/lib/libbrcmmp3dec.so \
-    vendor/samsung/baffinlite/proprietary/lib/libbrcmmp3enc.so:system/lib/libbrcmmp3enc.so \
-    vendor/samsung/baffinlite/proprietary/lib/libbrcmwmadec.so:system/lib/libbrcmwmadec.so \
-    vendor/samsung/baffinlite/proprietary/lib/libBrcmOMX_Component.so:system/lib/libBrcmOMX_Component.so \
-    vendor/samsung/baffinlite/proprietary/lib/libBrcmOMX_Core.so:system/lib/libBrcmOMX_Core.so \
     vendor/samsung/baffinlite/proprietary/lib/libbrcmparser.so:system/lib/libbrcmparser.so \
     vendor/samsung/baffinlite/proprietary/lib/lib_DNSe_NRSS_ver225.so:system/lib/lib_DNSe_NRSS_ver225.so \
     vendor/samsung/baffinlite/proprietary/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
@@ -92,7 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libh264_dec_bp.so:system/lib/libh264_dec_bp.so \
     vendor/samsung/baffinlite/proprietary/lib/libh264_dec_hp.so:system/lib/libh264_dec_hp.so \
     vendor/samsung/baffinlite/proprietary/lib/libh264_dummy_enc.so:system/lib/libh264_dummy_enc.so \
-	vendor/samsung/baffinlite/proprietary/lib/libh264_enc_bp.so:system/lib/libh264_enc_bp.so \
+    vendor/samsung/baffinlite/proprietary/lib/libh264_enc_bp.so:system/lib/libh264_enc_bp.so \
     vendor/samsung/baffinlite/proprietary/lib/libhwcodec.so:system/lib/libhwcodec.so \
     vendor/samsung/baffinlite/proprietary/lib/libImmVibeJ.so:system/lib/libImmVibeJ.so \
     vendor/samsung/baffinlite/proprietary/lib/libISP.so:system/lib/libISP.so \
@@ -101,8 +88,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
     vendor/samsung/baffinlite/proprietary/lib/libmpeg4_dec_asp.so:system/lib/libmpeg4_dec_asp.so \
     vendor/samsung/baffinlite/proprietary/lib/libmpeg4_dummy_enc.so:system/lib/libmpeg4_dummy_enc.so \
-	vendor/samsung/baffinlite/proprietary/lib/libmpeg4_enc_sp.so:system/lib/libmpeg4_enc_sp.so \
-	vendor/samsung/baffinlite/proprietary/lib/libmpeg4_fake_dec.so:system/lib/libmpeg4_fake_dec.so \
+    vendor/samsung/baffinlite/proprietary/lib/libmpeg4_enc_sp.so:system/lib/libmpeg4_enc_sp.so \
+    vendor/samsung/baffinlite/proprietary/lib/libmpeg4_fake_dec.so:system/lib/libmpeg4_fake_dec.so \
     vendor/samsung/baffinlite/proprietary/lib/libnewcapi2.so:system/lib/libnewcapi2.so \
     vendor/samsung/baffinlite/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/baffinlite/proprietary/lib/libril.so:system/lib/libril.so \
@@ -147,15 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
     vendor/samsung/baffinlite/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/baffinlite/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
-    vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.audio.aac.decoder.so:system/lib/libOMX.brcm.audio.aac.decoder.so \
-    vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.audio.aac.encoder.so:system/lib/libOMX.brcm.audio.aac.encoder.so \
-    vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.audio.amrnb.decoder.so:system/lib/libOMX.brcm.audio.amrnb.decoder.so \
-    vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.audio.amrnb.encoder.so:system/lib/libOMX.brcm.audio.amrnb.encoder.so \
-    vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.audio.amrwb.decoder.so:system/lib/libOMX.brcm.audio.amrwb.decoder.so \
-    vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.audio.amrwb.encoder.so:system/lib/libOMX.brcm.audio.amrwb.encoder.so \
-    vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.audio.mp3.decoder.so:system/lib/libOMX.brcm.audio.mp3.decoder.so \
-    vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.audio.mp3.encoder.so:system/lib/libOMX.brcm.audio.mp3.encoder.so \
-    vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.audio.wma.decoder.so:system/lib/libOMX.brcm.audio.wma.decoder.so \
     vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.video.dummy.decoder.so:system/lib/libOMX.brcm.video.dummy.decoder.so \
     vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.video.dummy.encoder.so:system/lib/libOMX.brcm.video.dummy.encoder.so \
     vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.video.h263.decoder.so:system/lib/libOMX.brcm.video.h263.decoder.so \
