@@ -101,7 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
     vendor/samsung/baffinlite/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
     vendor/samsung/baffinlite/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/baffinlite/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/baffinlite/proprietary/lib/libsharevia.so:system/lib/libsharevia.so \
     vendor/samsung/baffinlite/proprietary/lib/libsharevia_jni.so:system/lib/libsharevia_jni.so \
     vendor/samsung/baffinlite/proprietary/lib/libsig.so:system/lib/libsig.so \
@@ -143,6 +142,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.video.mpeg4.hw.decoder.so:system/lib/libOMX.brcm.video.mpeg4.hw.decoder.so \
     vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.video.vc1.hw.decoder.so:system/lib/libOMX.brcm.video.vc1.hw.decoder.so \
     vendor/samsung/baffinlite/proprietary/lib/libOMX.brcm.video.vpx.decoder.so:system/lib/libOMX.brcm.video.vpx.decoder.so \
+    vendor/samsung/baffinlite/proprietary/lib/libSR_AudioIn.so:system/lib/libSR_AudioIn.so \
     vendor/samsung/baffinlite/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so:system/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so \
     vendor/samsung/baffinlite/proprietary/usr/lib/alsa-lib/libbcm_hp_filter.so:system/usr/lib/alsa-lib/libbcm_hp_filter.so \
     vendor/samsung/baffinlite/proprietary/usr/lib/alsa-lib/libbcm_test_filter.so:system/usr/lib/alsa-lib/libbcm_test_filter.so \
